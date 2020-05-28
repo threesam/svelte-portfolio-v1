@@ -1,22 +1,23 @@
 <script>
   export let title
-  export let background
-  export let content
-  export let link
+  export let src
 </script>
 
 <style>
   div {
     display: grid;
     place-content: center;
-    padding: 2rem;
+    background-size: cover;
+    background-position: center;
   }
   h2 {
     margin-bottom: 1rem;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 15px white;
   }
 </style>
 
-<div style="background: {background};">
+<div style="background-image: url({src});">
   <h2>{title}</h2>
-  <p>{content}</p>
 </div>

@@ -1,41 +1,37 @@
 <script>
   import AboutTile from './AboutTile.svelte'
+
   const tiles = [
     {
       title: 'bio',
-      background: 'green',
-      content: 'test content',
+      src: '/images/eyeGrapefruit.png',
     },
     {
       title: 'fam',
-      background: 'red',
-      content: 'test content',
+      src: '/images/darkommute.png',
     },
     {
       title: 'music',
-      background: 'blue',
-      content: 'test content',
+      src: '/images/eyeGrapefruit.png',
     },
     {
       title: 'coding',
-      background: 'yellow',
-      content: 'test content',
+      src: '/images/darkommute.png',
     },
   ]
 </script>
 
 <style>
   section {
-    width: 100vw;
-    height: 100vh;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    width: 100%;
+    height: 100vh;
   }
 </style>
 
 <section>
-  <AboutTile {...tiles[0]} />
-  <AboutTile {...tiles[1]} />
-  <AboutTile {...tiles[2]} />
-  <AboutTile {...tiles[3]} />
+  {#each tiles as tile, i}
+    <AboutTile {...tile} />
+  {/each}
 </section>

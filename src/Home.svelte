@@ -8,9 +8,12 @@
   section {
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
   }
   div {
-    position: absolute;
+    position: sticky;
+    top: 0;
     height: max-content;
     width: 100%;
     padding: 3rem;

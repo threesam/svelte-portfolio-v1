@@ -13,7 +13,7 @@
 
 <style>
   div {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
