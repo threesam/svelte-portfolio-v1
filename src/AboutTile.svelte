@@ -26,7 +26,7 @@
     border: 0.25rem solid black;
     filter: grayscale(10%);
     color: black;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.125s ease-in-out;
   }
   h2 {
     margin-bottom: 1rem;
