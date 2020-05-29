@@ -1,58 +1,51 @@
 <script>
+  import { createEventDispatcher } from 'svelte'
+  import { scale, fade } from 'svelte/transition'
+  const dispatch = createEventDispatcher()
+
   export let title
   export let src
   export let content
-
-  let card = { toggled: false }
-
-  const toggle = () => {
-    card.toggled = !card.toggled
-  }
+  export let toggled = false
 </script>
 
 <style>
   div {
     display: grid;
     place-content: center;
-  }
-  #not-toggled {
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    filter: grayscale(100%);
-  }
-  #not-toggled:hover {
-    filter: grayscale(30%);
-    border: 0.25rem solid black;
-  }
-
-  #toggled {
-    background-image: unset;
-    background: black;
     color: white;
-    padding: 1rem;
-    font-size: 1.5rem;
-    line-height: 1.9rem;
+    cursor: pointer;
+    filter: grayscale(100%);
+    border: 0.25rem solid transparent;
   }
-  #toggled:hover {
-    filter: none;
-    border: none;
+  div:hover {
+    border: 0.25rem solid black;
+    filter: grayscale(10%);
+    color: black;
+    transition: all 0.25s ease-in-out;
   }
   h2 {
     margin-bottom: 1rem;
-    font-size: 4rem;
+    font-size: 5rem;
+  }
+  p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
     color: white;
-    text-shadow: 2px 2px 15px white;
   }
 </style>
 
-{#if !card.toggled}
-  <div id="not-toggled" style="background-image: url({src});" on:click={toggle}>
-    <h2>{title}</h2>
-  </div>
-{/if}
-
-{#if card.toggled}
-  <div id="toggled" on:click={toggle}>
-    <p>{content}</p>
-  </div>
-{/if}
+<div style="background-image: url({src});" on:click={() => dispatch('click')}>
+  {#if !toggled}
+    <h2 in:fade>{title}</h2>
+  {:else if toggled}
+    <p in:scale={{ start: 0.01 }}>{content}</p>
+  {/if}
+</div>

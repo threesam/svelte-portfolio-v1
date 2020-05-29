@@ -8,21 +8,25 @@
   section {
     width: 100%;
     height: 100vh;
-    display: flex;
-    align-items: center;
+    display: grid;
+    place-content: center;
   }
   div {
-    position: sticky;
-    top: 0;
     height: max-content;
-    width: 100%;
-    padding: 3rem;
+    width: max-content;
     background-color: rgba(20, 20, 20, 0.8);
     color: white;
+    padding: 3rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    border-radius: 50%;
   }
   h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   p {
     font-size: 1rem;
@@ -31,6 +35,7 @@
 
 <section>
   <div>
+    <img src="images/gridTest.jpg" alt="test" />
     <h1>Hey</h1>
     <p>
       My name is Salvatore D'Angelo III
