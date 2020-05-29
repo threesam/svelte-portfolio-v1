@@ -39,7 +39,7 @@
   }
   h2 {
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 4rem;
     color: white;
     text-shadow: 2px 2px 15px white;
   }
