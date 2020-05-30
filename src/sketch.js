@@ -75,7 +75,7 @@ const sketch = (p5) => {
                     //map distance to line color
                     const maxA = 255
                     const mapA = p5.map(d, tripLength, 0, 0, maxA)
-                    p5.stroke(0, 0, 0, mapA)
+                    p5.stroke(250, 250, 250, mapA)
                     p5.strokeWeight(2)
                     p5.line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y)
                 }

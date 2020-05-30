@@ -15,7 +15,7 @@
     place-content: center;
     height: 100%;
     width: 100%;
-    background-size: cover;
+    background-size: 110%;
     background-position: center;
     color: white;
     cursor: pointer;
