@@ -1,8 +1,8 @@
 <script>
-  import Home from './Home.svelte'
-  import About from './About.svelte'
-  import Projects from './Projects.svelte'
-  import Contact from './Contact.svelte'
+  import Home from './home/Home.svelte'
+  import About from './about/About.svelte'
+  import Projects from './projects/Projects.svelte'
+  import Contact from './contact/Contact.svelte'
 </script>
 
 <style>
@@ -12,4 +12,5 @@
 <main>
   <Home />
   <About />
+  <Projects />
 </main>
