@@ -1,43 +1,56 @@
 <script>
-  export let id
   export let title
   export let description
   export let image
-
-  export let mover
+  let src = image.src
+  let alt = image.alt
+  export let link
 </script>
 
 <style>
   div {
+    width: 300px;
+    height: auto;
     position: relative;
-    min-width: 300px;
-    min-height: 300px;
-    background-color: grey;
-    margin: 1rem;
     overflow-y: hidden;
     filter: grayscale(100%);
-    border: 1px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 1rem 2rem rgba(20, 20, 20, 0.69);
   }
   div:hover {
-    transform: scale(1.2);
     filter: grayscale(10%);
     transition: all 0.3s ease-in-out;
+    color: orange;
   }
   a {
     position: relative;
     top: 0;
     z-index: -1;
+    /* opacity applies to text links globally but not project */
+    opacity: 1;
   }
   img {
     width: 100%;
     height: auto;
   }
+  h3 {
+    position: absolute;
+    top: calc(150px - 1rem);
+    width: 100%;
+    text-align: center;
+  }
+  p {
+    margin: 1rem;
+    color: black;
+  }
 </style>
 
-<div style="left: {mover}px;">
-  <a href="https://hardroadofhope.com">
-    <img src={image} alt="" />
+<div>
+  <a href="https://{link}" target="_blank">
+    <img {src} {alt} />
   </a>
-  <h3>{title} {id}</h3>
+  <h3>{title}</h3>
   <p>{description}</p>
 </div>

@@ -2,15 +2,18 @@ const sketch = (p5) => {
     const particles = []
 
     p5.setup = () => {
-        p5.createCanvas(document.body.offsetWidth, p5.windowHeight)
+        p5.createCanvas(document.body.offsetWidth, document.body.clientHeight)
 
-        const particlesL = p5.windowWidth / 10
+        const particlesL = p5.windowHeight / 5
         for (let i = 0; i < particlesL; i++) {
             particles.push(new Particle())
         }
     }
 
     p5.draw = () => {
+        //
+        //map background to dark abyss
+        //
         p5.background(152, 150, 164)
         particles.forEach((p, index) => {
             //slice and start checking from index
@@ -22,7 +25,7 @@ const sketch = (p5) => {
     }
 
     p5.windowResized = () => {
-        p5.resizeCanvas(document.body.offsetWidth, p5.windowHeight)
+        p5.resizeCanvas(document.body.offsetWidth, document.body.clientHeight)
     }
 
 
@@ -75,6 +78,9 @@ const sketch = (p5) => {
                     //map distance to line color
                     const maxA = 255
                     const mapA = p5.map(d, tripLength, 0, 0, maxA)
+                    //
+                    //if below threshold, glow in the dark
+                    //
                     p5.stroke(250, 250, 250, mapA)
                     p5.strokeWeight(2)
                     p5.line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y)

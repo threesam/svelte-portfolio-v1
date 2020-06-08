@@ -11,14 +11,38 @@ canvas {
 }
 
 /* Base Styles */
-
-@import url("https://use.typekit.net/hyn4cgn.css");
-
 html,
 body {
-    font-family: poiret-one, sans-serif;
+    font-family: monospace;
     font-weight: 900;
     font-style: normal;
     font-size: 16px;
     margin-right: 0;
+}
+
+a {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+.bg {
+    background: url('images/beach.jpg');
+}
+
+@media(min-width: 800px) {
+    .bg:nth-of-type(5) {
+        grid-column: span 2;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(136, 176, 75);
+    border: 0.25rem solid black;
+    border-radius: 1rem;
+
 }

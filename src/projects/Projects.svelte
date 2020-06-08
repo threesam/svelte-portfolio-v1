@@ -8,7 +8,6 @@
     height: 100vh;
     display: grid;
     place-content: center;
-    background-color: beige;
   }
   h2 {
     margin: 2rem auto;
@@ -16,6 +15,6 @@
 </style>
 
 <section>
-  <h2>Featured Projects</h2>
+  <h2>Featured Project</h2>
   <ProjectCarousel />
 </section>
