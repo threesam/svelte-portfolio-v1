@@ -2,6 +2,7 @@
   import Home from './components/Home.svelte'
   import About from './components/About.svelte'
   import Projects from './components/Projects.svelte'
+  import Languages from './components/Languages.svelte'
 
   import P5Canvas from './components/P5Canvas.svelte'
   import sketch from './components/sketch'
@@ -21,5 +22,6 @@
   <Home />
   <About />
   <Projects />
+  <Languages />
   <P5Canvas id="p5-home" {sketch} />
 </main>

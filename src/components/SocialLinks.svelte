@@ -29,7 +29,7 @@
   <a href="https://github.com/salvatoredangelo" target="_blank">
     <i class="fab fa-github" />
   </a>
-  <a href="https://github.com/salvatoredangelo" target="_blank">
+  <a href="https://linkedin.com/in/salvatoredangelo3" target="_blank">
     <i class="fab fa-linkedin" />
   </a>
 </div>

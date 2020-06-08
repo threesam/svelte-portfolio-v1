@@ -2,33 +2,27 @@
   section {
     display: grid;
     width: 100%;
-    height: 100vh;
+    font-weight: 600;
+    color: var(--black);
   }
   div {
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: left;
-
     padding: 1rem;
 
     transition: all 0.2s ease-in;
   }
-  p {
-    font-size: 0.8rem;
-  }
   a {
-    color: inherit;
+    color: var(--yellow);
   }
   a:hover {
-    color: orangered;
+    color: var(--light-grey);
+    font-weight: 900;
+  }
+  p {
+    color: var(--white);
   }
   @media (min-width: 300px) {
     section {
       grid-template-columns: 1fr;
-    }
-    div {
-      display: grid;
-      place-content: center;
     }
   }
   @media (min-width: 800px) {
@@ -36,9 +30,14 @@
       grid-template-columns: repeat(4, 1fr);
       gap: 1rem;
       padding: 1rem;
+      font-size: 1.2rem;
+      height: 100vh;
     }
     div {
       padding: 2rem;
+      display: grid;
+      place-content: center;
+      border-radius: 10px;
     }
   }
 </style>
@@ -51,7 +50,9 @@
     </p>
   </div>
   <div class="bg">
-    <p>I grew up in Trenton, NJ</p>
+    <p>
+      I grew up in Trenton, NJ, and was the first in my family to go to college
+    </p>
   </div>
   <div class="bg">
     <p>
@@ -63,7 +64,13 @@
   </div>
   <div class="bg">
     <p>
-      I was convinced to check out a “really cool” open mic at a local
+      so I thought...
+      <em>Might as well go play some music</em>
+    </p>
+  </div>
+  <div class="bg">
+    <p>
+      My friend convinced me to check out a “really cool” open mic at a local
       <a href="https://www.facebook.com/trentonsocial" target="_blank">bar</a>
       in my hometown
     </p>
@@ -72,7 +79,9 @@
     <p>
       It was and I went every week, started waiting tables, making drinks,
       became a part of a beautifully underground arts community, co-founded a
-      production company(link), and met my
+      production
+      <a href="https://facebook.com/sixtomidnightps" target="_blank">company</a>
+      , and met my
       <a href="http://deanarants.netlify.app" target="_blank">wife</a>
     </p>
   </div>
@@ -91,24 +100,27 @@
       <a href="https://processing.org" target="_blank">
         The Processing Foundation
       </a>
+      , started slow and kept iterating daily until programming became an
+      insatiable pursuit
     </p>
   </div>
   <div class="bg">
     <p>
-      I started slow and kept iterating daily until it became an insatiable
-      pursuit
-    </p>
-  </div>
-  <div class="bg">
-    <p>
-      Simple sketches needed an online home, which led to an interest in web
-      design and development
+      Coupling art and code led to an interest in web design and development
     </p>
   </div>
   <div class="bg">
     <p>
       I’m now obsessed with solving my clients’ problems and designing
       responsive solutions that scale
+    </p>
+  </div>
+  <div class="bg">
+    <p>
+      For more information about my pro, here's my
+      <a href="https://salvatoredangelo.github.io/resume" target="_blank">
+        resume
+      </a>
     </p>
   </div>
 </section>
