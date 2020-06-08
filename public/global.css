@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    line-height: 1.7rem;
+}
+
 /* background with lowered opacity, text with full */
 .bg {
     position: relative;
