@@ -20,7 +20,7 @@
   p {
     color: var(--white);
   }
-  @media (min-width: 300px) {
+  @media (max-width: 799px) {
     section {
       grid-template-columns: 1fr;
     }
@@ -35,9 +35,10 @@
     }
     div {
       padding: 2rem;
+      border-radius: 10px;
       display: grid;
       place-content: center;
-      border-radius: 10px;
+      overflow: hidden;
     }
   }
 </style>
