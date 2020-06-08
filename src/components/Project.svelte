@@ -13,33 +13,27 @@
     height: auto;
     position: relative;
     overflow-y: hidden;
-    filter: grayscale(100%);
     border-radius: 10px;
     overflow: hidden;
-    color: white;
+    color: var(--white);
     box-shadow: 0 1rem 2rem rgba(20, 20, 20, 0.69);
   }
-  div:hover {
+  a {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    filter: grayscale(100%);
+  }
+  a:hover {
     filter: grayscale(10%);
     transition: all 0.3s ease-in-out;
-    color: orange;
-  }
-  a {
-    position: relative;
-    top: 0;
-    z-index: -1;
-    /* opacity applies to text links globally but not project */
-    opacity: 1;
-  }
-  img {
-    width: 100%;
-    height: auto;
   }
   h3 {
-    position: absolute;
-    top: calc(150px - 1rem);
-    width: 100%;
-    text-align: center;
+    font-size: 1.5rem;
+    color: #eaa221;
   }
   p {
     margin: 1rem;
@@ -48,9 +42,11 @@
 </style>
 
 <div>
-  <a href="https://{link}" target="_blank">
-    <img {src} {alt} />
+  <a
+    href="https://{link}"
+    target="_blank"
+    style="background-image: url({src});">
+    <h3>{title}</h3>
   </a>
-  <h3>{title}</h3>
   <p>{description}</p>
 </div>
