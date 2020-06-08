@@ -1,14 +1,20 @@
 <script>
-  import Home from './home/Home.svelte'
-  import About from './about/About.svelte'
-  import Projects from './projects/Projects.svelte'
+  import Home from './components/Home.svelte'
+  import About from './components/About.svelte'
+  import Projects from './components/Projects.svelte'
 
-  import P5Canvas from './home/P5Canvas.svelte'
-  import sketch from './home/sketch'
+  import P5Canvas from './components/P5Canvas.svelte'
+  import sketch from './components/sketch'
 </script>
 
 <style>
-
+  :global(:root) {
+    --white: rgb(245, 245, 236);
+    --black: rgb(10, 10, 8);
+    --light-grey: rgb(152, 150, 164);
+    --dark-grey: rgb(52, 50, 64);
+    --yellow: rgb(252, 252, 48);
+  }
 </style>
 
 <main>
