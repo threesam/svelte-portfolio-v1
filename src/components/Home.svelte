@@ -20,15 +20,15 @@
   img {
     width: 100%;
     height: auto;
-    filter: grayscale(50%);
   }
   h1 {
     position: absolute;
     top: 0;
-    margin: 1rem;
+    margin: 1.4rem 1.6rem;
     font-size: 3rem;
+    font-weight: 900;
     color: yellow;
-    text-shadow: 0 0 1rem black;
+    text-shadow: 0 0 2rem black;
   }
   p {
     position: absolute;
