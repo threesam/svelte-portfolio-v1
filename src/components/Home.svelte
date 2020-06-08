@@ -30,12 +30,6 @@
     color: yellow;
     text-shadow: 0 0 2rem black;
   }
-  p {
-    position: absolute;
-    top: calc(300px - 3rem);
-    margin: 1rem;
-    font-size: 0.9rem;
-  }
 </style>
 
 <section>
