@@ -6,7 +6,7 @@
     color: var(--black);
   }
   div {
-    padding: 1rem;
+    padding: 2rem;
 
     transition: all 0.2s ease-in;
   }
@@ -19,6 +19,7 @@
   }
   p {
     color: var(--white);
+    line-height: 2rem;
   }
   @media (max-width: 799px) {
     section {
@@ -34,7 +35,6 @@
       height: 100vh;
     }
     div {
-      padding: 2rem;
       border-radius: 10px;
       display: grid;
       place-content: center;
