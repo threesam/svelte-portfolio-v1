@@ -4,6 +4,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
   }
   img {
     filter: invert();

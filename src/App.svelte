@@ -13,7 +13,7 @@
     --white: rgb(245, 245, 236);
     --black: rgb(10, 10, 8);
     --light-grey: rgb(152, 150, 164);
-    --dark-grey: rgb(52, 50, 64);
+    --dark-grey: rgb(42, 40, 48);
     --yellow: rgb(252, 252, 48);
   }
 </style>
