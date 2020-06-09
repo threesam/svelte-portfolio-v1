@@ -15,7 +15,7 @@
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 1rem 2rem rgba(20, 20, 20, 0.69);
+    box-shadow: 0 1rem 2rem var(--shadow);
   }
   img {
     width: 100%;
@@ -27,8 +27,8 @@
     margin: 1.4rem 1.6rem;
     font-size: 3rem;
     font-weight: 900;
-    color: yellow;
-    text-shadow: 0 0 2rem black;
+    color: var(--yellow);
+    text-shadow: 0 0 2rem var(--black);
   }
 </style>
 

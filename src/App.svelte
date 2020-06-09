@@ -15,6 +15,7 @@
     --light-grey: rgb(152, 150, 164);
     --dark-grey: rgb(42, 40, 48);
     --yellow: rgb(252, 252, 48);
+    --shadow: rgba(20, 20, 20, 0.69);
   }
 </style>
 

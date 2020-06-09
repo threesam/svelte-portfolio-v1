@@ -18,7 +18,7 @@
     }
     i,
     img {
-      margin: 0.5rem;
+      margin: 0.75rem;
     }
   }
   @media (min-width: 800px) {
@@ -30,7 +30,7 @@
     }
     i,
     img {
-      margin: 1rem;
+      margin: 1.5rem;
     }
   }
 </style>

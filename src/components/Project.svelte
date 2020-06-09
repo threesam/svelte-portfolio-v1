@@ -16,7 +16,7 @@
     border-radius: 10px;
     overflow: hidden;
     color: var(--white);
-    box-shadow: 0 1rem 2rem rgba(20, 20, 20, 0.69);
+    box-shadow: 0 1rem 2rem var(--shadow);
   }
   a {
     width: 300px;
@@ -33,11 +33,12 @@
   }
   h3 {
     font-size: 1.5rem;
+    /* marigold */
     color: #eaa221;
   }
   p {
     margin: 1rem;
-    color: black;
+    color: var(--black);
   }
 </style>
 

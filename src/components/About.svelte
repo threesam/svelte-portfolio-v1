@@ -19,7 +19,6 @@
   }
   p {
     color: var(--white);
-    line-height: 2rem;
   }
   @media (max-width: 799px) {
     section {
