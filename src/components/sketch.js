@@ -4,7 +4,7 @@ const sketch = (p5) => {
     p5.setup = () => {
         p5.createCanvas(document.body.offsetWidth, document.body.clientHeight)
 
-        const particlesL = p5.windowHeight / 5
+        const particlesL = p5.windowHeight / 7
         for (let i = 0; i < particlesL; i++) {
             particles.push(new Particle())
         }
@@ -68,9 +68,9 @@ const sketch = (p5) => {
                 //determine orientation and apply responsive length
                 let tripLength
                 if (p5.windowWidth > p5.windowHeight) {
-                    tripLength = p5.windowWidth / 10
+                    tripLength = p5.windowWidth / 7
                 } else {
-                    tripLength = p5.windowHeight / 10
+                    tripLength = p5.windowHeight / 7
                 }
 
                 //draw line if within threshold
