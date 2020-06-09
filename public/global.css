@@ -29,8 +29,10 @@ p {
 }
 
 /* background with lowered opacity, text with full */
-.bg {
-    background-color: var(--dark-grey);
+@media(max-width: 799px) {
+    .bg {
+        background-color: var(--dark-grey);
+    }
 }
 
 @media(min-width: 800px) {
@@ -48,6 +50,7 @@ p {
         height: 100%;  
         opacity: 0.85; 
         z-index: -1;
+        background-color: unset;
         background-image: url('images/portfolioBG_BW.png');
         background-size: cover;
         background-attachment: fixed;

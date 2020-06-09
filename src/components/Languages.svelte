@@ -36,7 +36,7 @@
 </style>
 
 <div>
-  <img src="favicon.png" alt="sveltejs logo" />
+  <img src="images/svelte.png" alt="sveltejs logo" />
   <i class="fab fa-react" />
   <i class="fab fa-js-square" />
   <i class="fab fa-node-js" />
