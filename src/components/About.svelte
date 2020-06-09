@@ -80,7 +80,7 @@
       It was and I went every week, started waiting tables, making drinks,
       became a part of a beautifully underground arts community, co-founded a
       production
-      <a href="https://facebook.com/sixtomidnightps" target="_blank">company</a>
+      <a href="http://sixtomidnight.netlify.app" target="_blank">company</a>
       , and met my
       <a href="http://deanarants.netlify.app" target="_blank">wife</a>
     </p>
