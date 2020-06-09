@@ -117,7 +117,7 @@
   </div>
   <div class="bg">
     <p>
-      For more information about my pro, here's my
+      For more info, here's my
       <a href="https://salvatoredangelo.github.io/resume" target="_blank">
         resume
       </a>
