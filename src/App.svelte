@@ -10,11 +10,17 @@
 
 <style>
   :global(:root) {
-    --white: rgb(245, 245, 236);
-    --black: rgb(10, 10, 8);
-    --light-grey: rgb(152, 150, 164);
-    --dark-grey: rgb(42, 40, 48);
-    --yellow: rgb(252, 252, 48);
+    --rgb-white: 245, 245, 236;
+    --rgb-black: 10, 10, 8;
+    --rgb-light-grey: 152, 150, 164;
+    --rgb-dark-grey: 42, 40, 48;
+    --rgb-yellow: 252, 252, 48;
+
+    --white: rgb(var(--rgb-white));
+    --black: rgb(var(--rgb-black));
+    --light-grey: rgb(var(--rgb-light-grey));
+    --dark-grey: rgb(var(--rgb-dark-grey));
+    --yellow: rgb(var(--rgb-yellow));
     --shadow: rgba(20, 20, 20, 0.69);
   }
 </style>
