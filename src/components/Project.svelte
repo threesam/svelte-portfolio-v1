@@ -1,4 +1,5 @@
 <script>
+  export let id
   export let title
   export let description
   export let image
@@ -44,6 +45,7 @@
 
 <div>
   <a
+    {id}
     href="https://{link}"
     target="_blank"
     style="background-image: url({src});">
