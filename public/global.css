@@ -31,7 +31,7 @@ p {
 /* background with lowered opacity, text with full */
 @media(max-width: 799px) {
     .bg {
-        background-color: var(--dark-grey);
+        background-color: rgba(42, 40, 48, 0.9);
     }
 }
 
