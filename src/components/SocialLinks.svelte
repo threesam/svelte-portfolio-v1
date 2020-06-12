@@ -26,10 +26,16 @@
   <a href="tel:609-356-4012">
     <i class="fas fa-phone-square-alt" />
   </a>
-  <a href="https://github.com/salvatoredangelo" target="_blank">
+  <a
+    href="https://github.com/salvatoredangelo"
+    target="_blank"
+    rel="noopener noreferrer">
     <i class="fab fa-github" />
   </a>
-  <a href="https://linkedin.com/in/salvatoredangelo3" target="_blank">
+  <a
+    href="https://linkedin.com/in/salvatoredangelo3"
+    target="_blank"
+    rel="noopener noreferrer">
     <i class="fab fa-linkedin" />
   </a>
 </div>

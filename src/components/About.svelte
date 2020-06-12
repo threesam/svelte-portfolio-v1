@@ -57,7 +57,9 @@
   <div class="bg">
     <p>
       Graduated with a double major in PolySci and Global Studies from
-      <a href="https://rider.edu" target="_blank">Rider</a>
+      <a href="https://rider.edu" target="_blank" rel="noopener noreferrer">
+        Rider
+      </a>
       just in time to realize that I liked the theory of politics a lot more
       than the practice
     </p>
@@ -71,7 +73,12 @@
   <div class="bg">
     <p>
       My friend convinced me to check out a “really cool” open mic at a local
-      <a href="https://www.facebook.com/trentonsocial" target="_blank">bar</a>
+      <a
+        href="https://www.facebook.com/trentonsocial"
+        target="_blank"
+        rel="noopener noreferrer">
+        bar
+      </a>
       in my hometown
     </p>
   </div>
@@ -80,9 +87,19 @@
       It was and I went every week, started waiting tables, making drinks,
       became a part of a beautifully underground arts community, co-founded a
       production
-      <a href="http://sixtomidnight.netlify.app" target="_blank">company</a>
+      <a
+        href="http://sixtomidnight.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer">
+        company
+      </a>
       , and met my
-      <a href="http://deanarants.netlify.app" target="_blank">wife</a>
+      <a
+        href="http://deanarants.netlify.app"
+        target="_blank"
+        rel="noopener noreferrer">
+        wife
+      </a>
     </p>
   </div>
   <div class="bg">
@@ -97,7 +114,10 @@
   <div class="bg">
     <p>
       Inspired by #generativeart and looking to evolve my company, I came upon
-      <a href="https://processing.org" target="_blank">
+      <a
+        href="https://processing.org"
+        target="_blank"
+        rel="noopener noreferrer">
         The Processing Foundation
       </a>
       , started slow and kept iterating daily until programming became an
@@ -118,7 +138,10 @@
   <div class="bg">
     <p>
       For more info, here's my
-      <a href="https://salvatoredangelo.github.io/resume" target="_blank">
+      <a
+        href="https://salvatoredangelo.github.io/resume"
+        target="_blank"
+        rel="noopener noreferrer">
         resume
       </a>
     </p>
