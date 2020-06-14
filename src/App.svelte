@@ -26,9 +26,9 @@
 </style>
 
 <main>
+  <P5Canvas id="p5-home" {sketch} />
   <Home />
   <About />
   <Projects />
   <Languages />
-  <P5Canvas id="p5-home" {sketch} />
 </main>

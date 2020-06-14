@@ -1,7 +1,6 @@
 <script>
   import Project from './Project.svelte'
   import projects from './projects'
-  console.log(projects)
 </script>
 
 <style>
