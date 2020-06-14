@@ -48,7 +48,8 @@
     {id}
     href="https://{link}"
     target="_blank"
-    style="background-image: url({src});">
+    style="background-image: url({src});"
+    rel="noopener noreferrer">
     <h3>{title}</h3>
   </a>
   <p>{description}</p>
