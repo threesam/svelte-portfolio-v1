@@ -139,7 +139,7 @@
     <p>
       For more info, here's my
       <a
-        href="https://salvatoredangelo.github.io/resume"
+        href="./salvatore-dangelo-resume.PDF"
         target="_blank"
         rel="noopener noreferrer">
         resume
