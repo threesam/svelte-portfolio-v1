@@ -50,10 +50,7 @@
     </p>
   </div>
   <div class="bg">
-    <p>
-      I grew up in Trenton, NJ, with parents who supported my desire to not take
-      seriously the private school that they sent me to.
-    </p>
+    <p>I grew up in Trenton, NJ.</p>
   </div>
   <div class="bg">
     <p>
