@@ -22,7 +22,7 @@
     }
     i,
     img {
-      margin: 0.7rem;
+      margin: 1.3rem 0.7rem;
     }
   }
   @media (min-width: 800px) {
