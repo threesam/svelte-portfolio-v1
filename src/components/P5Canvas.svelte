@@ -6,7 +6,7 @@
   import { onMount } from 'svelte'
 
   onMount(function () {
-    // console.log(`${id}, so this is working`)
+    console.log(`${id}, so this is working`)
     let myp5 = new p5(sketch, id)
   })
 </script>

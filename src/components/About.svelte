@@ -51,7 +51,8 @@
   </div>
   <div class="bg">
     <p>
-      I grew up in Trenton, NJ, and was the first in my family to go to college
+      I grew up in Trenton, NJ, with parents who supported my desire to not take
+      seriously the private school that they sent me to.
     </p>
   </div>
   <div class="bg">
