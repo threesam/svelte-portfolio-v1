@@ -48,9 +48,9 @@
   <i class="fab fa-react" />
   <i class="fab fa-js-square" />
   <i class="fab fa-node-js" />
+  <img src="rust-logo-blk.svg" alt="rustlang logo" />
   <i class="fab fa-html5" />
   <i class="fab fa-css3-alt" />
   <i class="fab fa-linux" />
-  <img src="rust-logo-blk.svg" alt="rustlang logo" />
   <i class="fab fa-adobe" />
 </div>
