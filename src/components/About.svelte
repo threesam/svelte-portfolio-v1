@@ -1,9 +1,11 @@
 <style>
   section {
     display: grid;
+    position: relative;
     width: 100%;
     font-weight: 600;
     color: var(--black);
+    z-index: 10;
   }
   div {
     padding: 2rem;
