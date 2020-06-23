@@ -5,8 +5,7 @@
 
   import { onMount } from 'svelte'
 
-  onMount(function () {
-    console.log(`${id}, so this is working`)
+  onMount(() => {
     let myp5 = new p5(sketch, id)
   })
 </script>
@@ -16,7 +15,17 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    /* z-index: -1; */
+    animation: fadeIn 1.5s ease-in;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 </style>
 

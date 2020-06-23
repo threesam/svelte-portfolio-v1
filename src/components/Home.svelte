@@ -1,5 +1,6 @@
 <script>
   import SocialLinks from './SocialLinks.svelte'
+  import { fly } from 'svelte/transition'
 </script>
 
 <style>
@@ -9,6 +10,19 @@
     display: grid;
     place-content: center;
     padding: 0 2rem;
+    animation: flyIn 1.5s;
+    animation-timing-function: cubic-bezier(0.31, 0.44, 0.64, 1.05);
+  }
+
+  @keyframes flyIn {
+    0% {
+      transform: translateX(-2rem);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
   div {
     position: relative;
@@ -32,7 +46,7 @@
   }
 </style>
 
-<section>
+<section transition:fly={{ y: -300, duration: 5000 }}>
   <div>
     <img src="images/gridTest.jpg" alt="test" />
     <h1>hey</h1>

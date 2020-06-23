@@ -23,12 +23,16 @@
     --yellow: rgb(var(--rgb-yellow));
     --shadow: rgba(20, 20, 20, 0.69);
   }
+
+  main {
+    background: var(--light-grey);
+  }
 </style>
 
 <main>
+  <P5Canvas id="p5-home" {sketch} />
   <Home />
   <About />
   <Projects />
   <Languages />
-  <P5Canvas id="p5-home" {sketch} />
 </main>

@@ -4,6 +4,17 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
+    animation: fadeIn 3s;
+    animation-timing-function: cubic-bezier(0.31, 0.44, 0.64, 1.05);
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
   a {
     margin: 1rem;
