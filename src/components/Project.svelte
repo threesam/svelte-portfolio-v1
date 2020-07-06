@@ -18,7 +18,7 @@
     border-radius: 10px;
     overflow: hidden;
     color: var(--white);
-    box-shadow: 0 1rem 2rem var(--shadow);
+    box-shadow: 0 1rem 1rem var(--shadow);
   }
   a {
     width: 300px;

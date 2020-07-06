@@ -29,7 +29,7 @@
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 1rem 2rem var(--shadow);
+    box-shadow: 0 1rem 1rem var(--shadow);
   }
   img {
     width: 100%;

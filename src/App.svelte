@@ -21,7 +21,7 @@
     --light-grey: rgb(var(--rgb-light-grey));
     --dark-grey: rgb(var(--rgb-dark-grey));
     --yellow: rgb(var(--rgb-yellow));
-    --shadow: rgba(20, 20, 20, 0.69);
+    --shadow: rgba(20, 20, 20, 0.3);
   }
 
   main {
