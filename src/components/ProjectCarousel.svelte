@@ -7,10 +7,20 @@
   div {
     position: relative;
     width: 100%;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
   }
+  @media (min-width: 760px) {
+    div {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  /* @media (min-width: 1020px) {
+    div {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  } */
 </style>
 
 <div>
