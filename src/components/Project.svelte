@@ -35,7 +35,7 @@
     transition: all 0.3s ease-in-out;
   }
   h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   p {
     margin: 1rem;

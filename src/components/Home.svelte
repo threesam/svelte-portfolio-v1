@@ -11,7 +11,7 @@
     place-content: center;
     padding: 0 2rem;
     animation: flyIn 1.5s;
-    animation-timing-function: cubic-bezier(0.17, 0.67, 0.38, 1.3);
+    animation-timing-function: cubic-bezier(0.17, 0.67, 0.38, 0.9);
   }
 
   @keyframes flyIn {
