@@ -3,6 +3,7 @@
   export let title
   export let description
   export let image
+  export let color
   let src = image.src
   let alt = image.alt
   export let link
@@ -26,6 +27,7 @@
     display: grid;
     place-content: center;
     background-size: cover;
+    background-position: center;
     filter: grayscale(100%);
   }
   a:hover {
@@ -33,9 +35,7 @@
     transition: all 0.3s ease-in-out;
   }
   h3 {
-    font-size: 1.5rem;
-    /* marigold */
-    color: #eaa221;
+    font-size: 1.8rem;
   }
   p {
     margin: 1rem;
@@ -50,7 +50,7 @@
     target="_blank"
     style="background-image: url({src});"
     rel="noopener noreferrer">
-    <h3>{title}</h3>
+    <h3 style="color: {color};">{title}</h3>
   </a>
   <p>{description}</p>
 </div>
