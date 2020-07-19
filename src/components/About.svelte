@@ -88,7 +88,7 @@
       became a part of a beautifully underground arts community, co-founded a
       production
       <a
-        href="http://sixtomidnight.netlify.app"
+        href="https://sixtomidnight.productions"
         target="_blank"
         rel="noopener noreferrer">
         company
