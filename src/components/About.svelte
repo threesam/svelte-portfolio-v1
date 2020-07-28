@@ -103,10 +103,7 @@
     </p>
   </div>
   <div class="bg">
-    <p>
-      We had a little girl, named Phoenix, and our second girl, Juniper, is
-      months away
-    </p>
+    <p>We had two lovely little girls, Phoenix and Juniper</p>
   </div>
   <div class="bg">
     <p>Our dog, Koda, is grumpily protective of each new addition</p>
