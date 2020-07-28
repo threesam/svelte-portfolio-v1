@@ -95,7 +95,7 @@
       </a>
       , and met my
       <a
-        href="http://deanarants.netlify.app"
+        href="https://dianadangelo.com"
         target="_blank"
         rel="noopener noreferrer">
         wife
