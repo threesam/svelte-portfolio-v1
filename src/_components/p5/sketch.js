@@ -1,10 +1,31 @@
+// import { random } from 'canvas-sketch-util'
+// import palettes from 'nice-color-palettes'
+// import hexRgb from 'hex-rgb'
+// export const palette = random.pick(palettes)
+
+// // pick color from palette and convert to rgba object
+// export const color = hexRgb(random.pick(palette))
+// const { red, green, blue, alpha } = color
+
+
+
+// const pickRandomPaletteColor = (palette) => {
+//     const col = random.pick(palette)
+//     const rgbCol = hexRgb(col)
+//     return rgbCol
+// }
+
+
+
+
+
 const sketch = (p5) => {
     const particles = []
 
     p5.setup = () => {
-        p5.createCanvas(document.body.offsetWidth, document.body.clientHeight)
+        p5.createCanvas(document.body.offsetWidth, p5.windowHeight)
 
-        const particlesL = p5.windowHeight / 7
+        const particlesL = 30
         for (let i = 0; i < particlesL; i++) {
             particles.push(new Particle())
         }
@@ -14,7 +35,7 @@ const sketch = (p5) => {
         //
         //map background to dark abyss
         //
-        p5.background(152, 150, 164)
+        p5.background(20)
         particles.forEach((p, index) => {
             //slice and start checking from index
             p.update()
@@ -40,7 +61,6 @@ const sketch = (p5) => {
         }
 
         render() {
-            p5.fill(0, 0)
             p5.noStroke()
             p5.point(this.pos.x, this.pos.y)
         }
@@ -68,12 +88,12 @@ const sketch = (p5) => {
                 //determine orientation and apply responsive length
                 let tripLength
                 if (p5.windowWidth > p5.windowHeight) {
-                    tripLength = p5.windowWidth / 7
+                    tripLength = p5.windowWidth / 5
                 } else {
-                    tripLength = p5.windowHeight / 7
+                    tripLength = p5.windowHeight / 5
                 }
 
-                //draw line if within threshold
+                // const { red, green, blue, alpha } = pickRandomPaletteColor(palette)
                 if (d <= tripLength) {
                     //map distance to line color
                     const maxA = 255
@@ -81,7 +101,7 @@ const sketch = (p5) => {
                     //
                     //if below threshold, glow in the dark
                     //
-                    p5.stroke(250, mapA)
+                    p5.stroke(15, 76, 129, mapA)
                     p5.strokeWeight(2)
                     p5.line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y)
                 }

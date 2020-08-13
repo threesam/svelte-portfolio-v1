@@ -1,38 +1,32 @@
 <script>
-  import Home from './components/Home.svelte'
-  import About from './components/About.svelte'
-  import Projects from './components/Projects.svelte'
-  import Languages from './components/Languages.svelte'
+  import About from './about/About.svelte'
+  import Projects from './projects/Projects.svelte'
 
-  import P5Canvas from './components/P5Canvas.svelte'
-  import sketch from './components/sketch'
+  import P5Canvas from './_components/CanvasP5.svelte'
+  import sketch from './_components/p5/sketch.js'
+
+  import { onMount } from 'svelte'
+  // let visible = false
+  onMount(() => {
+    // setTimeout(() => (visible = true), 2000)
+  })
 </script>
 
 <style>
-  :global(:root) {
-    --rgb-white: 245, 245, 236;
-    --rgb-black: 10, 10, 8;
-    --rgb-light-grey: 152, 150, 164;
-    --rgb-dark-grey: 42, 40, 48;
-    --rgb-yellow: 252, 252, 48;
-
-    --white: rgb(var(--rgb-white));
-    --black: rgb(var(--rgb-black));
-    --light-grey: rgb(var(--rgb-light-grey));
-    --dark-grey: rgb(var(--rgb-dark-grey));
-    --yellow: rgb(var(--rgb-yellow));
-    --shadow: rgba(20, 20, 20, 0.3);
-  }
-
-  main {
-    background: var(--light-grey);
+  div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
   }
 </style>
 
 <main>
-  <P5Canvas id="p5-home" {sketch} />
-  <Home />
   <About />
   <Projects />
-  <Languages />
+  <!-- {#if visible} -->
+  <div>
+    <P5Canvas id="p5-home" {sketch} />
+  </div>
+  <!-- {/if} -->
 </main>
