@@ -43,6 +43,8 @@
   }
   h1 {
     font-size: 3rem;
+    position: relative;
+    z-index: 10;
   }
   .project {
     width: 100%;
