@@ -1,6 +1,6 @@
 <script>
   export let project
-  const { id, title, description, image, href, repo } = project
+  const { id, title, description, image, href, repo, color } = project
   const src = image.src
   const alt = image.alt
 </script>
@@ -14,6 +14,9 @@
   h2,
   p {
     margin-bottom: 0.5rem;
+  }
+  h2 {
+    color: var(--ice);
   }
   a {
     display: inline-block;

@@ -12,7 +12,9 @@
 <style>
   button {
     position: absolute;
+    top: 0;
     padding: 1rem;
+    height: 87px;
     outline: none;
     border: none;
     background: none;
@@ -21,9 +23,8 @@
   }
   @media (min-width: 820px) {
     button {
-      top: 0;
       height: 100vh;
-      width: calc(50% - 400px);
+      width: calc(50% - 360px);
     }
     button:hover,
     button:active {

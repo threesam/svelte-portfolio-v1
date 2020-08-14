@@ -17,9 +17,8 @@
     transition: all 1s ease-in-out;
   }
 
-  h3,
   p {
-    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   span {

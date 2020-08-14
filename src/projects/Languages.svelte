@@ -9,7 +9,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0.5rem;
-    /* max-width: 56rem; */
     color: var(--light-grey);
     opacity: 0.4;
     max-width: 600px;

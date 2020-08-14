@@ -35,6 +35,7 @@
     div {
       border-radius: 13px;
       overflow: hidden;
+      margin-top: 1rem;
     }
   }
 </style>
