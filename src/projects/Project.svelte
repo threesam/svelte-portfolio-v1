@@ -8,6 +8,7 @@
 
 <style>
   div {
+    position: absolute;
     max-width: 700px;
     margin: 0 auto;
     background: rgba(var(--rgb-dark-grey), 0.85);

@@ -15,9 +15,6 @@
   p {
     margin-bottom: 0.5rem;
   }
-  h2 {
-    color: var(--ice);
-  }
   a {
     display: inline-block;
     background: var(--ice);

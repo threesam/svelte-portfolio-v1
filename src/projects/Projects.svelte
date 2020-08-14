@@ -12,7 +12,7 @@
   $: dir = 1
 
   const previousProject = () => {
-    dir = 1
+    dir = 0
     if (activeProject <= 0) {
       activeProject = projects.length - 1
     } else {
@@ -38,7 +38,7 @@
     width: 100%;
     /* max-width: 600px; */
     min-height: 100vh;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* background: var(--black); */
   }
   h1 {
@@ -68,7 +68,7 @@
       <div
         class="project"
         in:fly={{ x: dir * transitionX, easing: cubicOut, duration: 700 }}
-        out:fade={{ duration: 200 }}>
+        out:fade={{ duration: 350 }}>
         <Project {project} />
       </div>
     {/if}
