@@ -23,6 +23,7 @@
 
   span {
     text-decoration: underline;
+    margin-top: 1rem;
     opacity: 0.7;
     font-size: 0.9rem;
     cursor: pointer;

@@ -6,7 +6,6 @@ const sketch = (p5) => {
     p5.draw = () => {
         p5.background(20)
         p5.stroke(15, 76, 129)
-        p5.smooth()
         p5.noFill()
         drawCircle(0, p5.windowHeight / 2, p5.windowHeight)
         p5.noLoop()
