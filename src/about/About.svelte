@@ -78,7 +78,7 @@
         rabbit-hole of web development and can't get out. Please feed me. I like
         design and building user-interfaces. Here's my
         <a
-          href="./salvatore-dangelo-resume.PDF"
+          href="./SALVATORE_SAM_DANGELO_RESUME.PDF"
           target="_blank"
           rel="noopener noreferrer">
           resume
