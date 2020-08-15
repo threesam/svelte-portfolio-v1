@@ -42,7 +42,7 @@
     <a
       in:fly={{ y: -50 }}
       out:fly={{ y: -50, delay: 100 }}
-      href="mailto:contact@threesam.com"
+      href="mailto:sam@threesam.com"
       aria-label="email">
       <!-- <i class="fas fa-envelope" /> -->
 
