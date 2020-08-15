@@ -3,6 +3,9 @@
   import Languages from '../projects/Languages.svelte'
   import Contact from './Contact.svelte'
 
+  import P5Canvas from '../_components/CanvasP5.svelte'
+  import sketch from '../_components/p5/sketch.js'
+
   import { onMount } from 'svelte'
   import { fly, fade } from 'svelte/transition'
 
@@ -52,9 +55,17 @@
     top: 1rem;
     right: 1rem;
   }
+  .sketch {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 </style>
 
 <section>
+  <div class="sketch">
+    <P5Canvas id="p5-home" {sketch} />
+  </div>
   {#if visible}
     <div class="contact">
       <Contact />

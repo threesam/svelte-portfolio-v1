@@ -46,7 +46,7 @@ const sketch = (p5) => {
     }
 
     p5.windowResized = () => {
-        p5.resizeCanvas(document.body.offsetWidth, document.body.clientHeight)
+        p5.resizeCanvas(document.body.offsetWidth, p5.windowHeight)
     }
 
 
