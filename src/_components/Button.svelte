@@ -14,14 +14,14 @@
     position: absolute;
     top: 0;
     padding: 0.25rem;
-    /* height: 87px; */
-    height: 100vh;
+    height: 87px;
+    /* height: 100vh; */
     outline: none;
     border: none;
     background: none;
     color: var(--light-grey);
     z-index: 10;
-    opacity: 0.3;
+    /* opacity: 0.3; */
   }
   @media (min-width: 820px) {
     button {

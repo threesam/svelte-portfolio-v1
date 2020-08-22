@@ -24,7 +24,7 @@
     place-content: center;
     position: relative;
     padding: 0 2rem;
-    background: red;
+    background: black;
   }
   section h1 {
     font-size: 3rem;
