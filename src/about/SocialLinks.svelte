@@ -72,7 +72,7 @@
   </a>
   <a
     aria-label="instagram"
-    href="https://instagram.com/the.sam.wolf"
+    href="https://instagram.com/__threesam"
     target="_blank"
     rel="noopener noreferrer">
     <svg

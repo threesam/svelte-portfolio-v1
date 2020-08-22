@@ -11,6 +11,7 @@
 <style>
   article {
     padding: 2rem;
+    /* border-radius: 13px; */
   }
   .toggled {
     background: var(--black);
