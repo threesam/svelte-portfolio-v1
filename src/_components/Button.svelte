@@ -14,6 +14,7 @@
     position: absolute;
     top: 0;
     padding: 0.25rem;
+    margin: 0 0.1rem;
     height: 87px;
     /* height: 100vh; */
     outline: none;
