@@ -27,6 +27,7 @@
   @media (min-width: 820px) {
     button {
       width: calc(50% - 360px);
+      height: 100%;
       opacity: 1;
       cursor: pointer;
     }
