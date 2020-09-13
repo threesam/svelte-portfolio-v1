@@ -94,7 +94,7 @@
   </a>
   <a
     aria-label="twitter"
-    href="https://twitter.com/sallybananass"
+    href="https://twitter.com/_threesam"
     target="_blank"
     rel="noopener noreferrer">
     <svg
