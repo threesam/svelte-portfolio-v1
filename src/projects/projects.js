@@ -40,7 +40,7 @@ const projects = [{
         src: 'images/TriviArt.png',
         alt: 'a paved forest road during autumn'
     },
-    href: 'https://youthful-meitner-07b399.netlify.app',
+    href: 'https://triviart.threesam.com',
     repo: GITHUB_ACCOUNT + 'triviart',
     what: "I did not have a lot of prior experience consuming third-party APIs with Svelte, but I had a lot of data to display and needed to create a marginally complex UI/UX.",
     challenge: "Fetching data from different parts of my app was easy enough, but stitching that flow of data through various components was not immediately intuitive.",
