@@ -19,7 +19,7 @@
 <div>
   <a
     aria-label="github"
-    href="https://github.com/salvatoredangelo"
+    href="https://github.com/threesam"
     target="_blank"
     rel="noopener noreferrer">
     <!-- <i class="fab fa-github" /> -->
