@@ -7,7 +7,7 @@
   import sketch from '../_components/p5/sketch.js'
 
   import { onMount } from 'svelte'
-  import { fly, fade } from 'svelte/transition'
+  import { fly, fade, slide } from 'svelte/transition'
 
   let visible = false
   let toggled = false
@@ -96,13 +96,15 @@
         </a>
 
       </p>
-      <!-- <button on:click={toggle}>More About Me</button> -->
+      <!-- <button on:click={toggle}>More About Me</button>
       {#if toggled}
-        <h2>About Me</h2>
-        <p>I</p>
-        <p>why did i change careers</p>
-        <p>why being self-taught is advantageous</p>
-      {/if}
+        <form transition:slide action="POST" data-netlify="true">
+          <p><label for="name">Name: <input name="name" /></label></p>
+          <p><label>Email: <input type="email" name="email" /></label></p>
+          <p><label>Message: <textarea name="message"></textarea></label></p>
+          <button type="submit">Send it</button>
+        </form>
+      {/if} -->
       <br />
       <SocialLinks />
     </div>
