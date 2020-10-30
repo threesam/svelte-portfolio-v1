@@ -40,6 +40,8 @@
   <p>{what}</p>
   {#if !toggled}
     <span
+      id="case-study-read-more"
+      class="umami--click--case-study-read-more"
       out:fade={{ duration: animationTiming }}
       on:click={() => (toggled = true)}>
       read more
