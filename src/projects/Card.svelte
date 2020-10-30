@@ -3,6 +3,10 @@
   const { id, title, description, image, href, repo, color } = project
   const src = image.src
   const alt = image.alt
+
+  const hiphenate = (str) => {
+    return str.split(" ").join('-').toLowerCase()
+  }
 </script>
 
 <style>
@@ -48,8 +52,8 @@
     <a
       style="background-color: var(--black);"
       href={repo}
-      id={`visit-repo-${title}`}
-      class={`umami--click--visit-repo-${title}`}
+      id={`visit-repo-${hiphenate(title)}`}
+      class={`umami--click--visit-repo-${hiphenate(title)}`}
       target="_blank"
       aria-label="github repo"
       rel="noopener noreferrer">
@@ -110,8 +114,8 @@
     {#if href}
       <a
         {href}
-        id={`visit-site-${title}`}
-        class={`umami--click--visit-site-${title}`}
+        id={`visit-site-${hiphenate(title)}`}
+        class={`umami--click--visit-site-${hiphenate(title)}`}
         target="_blank"
         aria-label="visit the site of this project"
         rel="noopener noreferrer">
