@@ -48,6 +48,8 @@
     <a
       style="background-color: var(--black);"
       href={repo}
+      id={`visit-repo-${title}`}
+      class={`umami--click--visit-repo-${title}`}
       target="_blank"
       aria-label="github repo"
       rel="noopener noreferrer">
@@ -108,6 +110,8 @@
     {#if href}
       <a
         {href}
+        id={`visit-site-${title}`}
+        class={`umami--click--visit-site-${title}`}
         target="_blank"
         aria-label="visit the site of this project"
         rel="noopener noreferrer">

@@ -18,6 +18,8 @@
 
 <div>
   <a
+    id="github-social"
+    class="umami--click--github-social"
     aria-label="github"
     href="https://github.com/threesam"
     target="_blank"
@@ -50,6 +52,8 @@
     </svg>
   </a>
   <a
+    id="linkedin-social"
+    class="umami--click--linkedin-social"
     aria-label="linkedin"
     href="https://linkedin.com/in/salvatoredangelo3"
     target="_blank"
@@ -71,6 +75,8 @@
     <!-- <i class="fab fa-linkedin" /> -->
   </a>
   <a
+    id="instagram-social"
+    class="umami--click--instagram-social"
     aria-label="instagram"
     href="https://instagram.com/__threesam"
     target="_blank"
@@ -93,6 +99,8 @@
     <!-- <i class="fab fa-linkedin" /> -->
   </a>
   <a
+    id="twitter-social"
+    class="umami--click--twitter-social"
     aria-label="twitter"
     href="https://twitter.com/_threesam"
     target="_blank"

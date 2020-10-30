@@ -35,7 +35,12 @@
 </style>
 
 {#if loaded}
-  <button on:click={toggle} class:toggled transition:fade>contact</button>
+  <button 
+  id="contact-btn"
+  class="umami--click--contact-btn"
+  class:toggled 
+  on:click={toggle} 
+  transition:fade>contact</button>
 {/if}
 {#if toggled}
   <div transition:fade>

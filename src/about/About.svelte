@@ -79,6 +79,8 @@
         rabbit-hole of web development and can't get out. Please feed me. I like
         design and building user-interfaces. Here's my
         <a
+          id="resume-link"
+          class="umami--click--resume-link"
           href="./SALVATORE_SAM_DANGELO_RESUME.PDF"
           target="_blank"
           rel="noopener noreferrer">
