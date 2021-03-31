@@ -144,39 +144,3 @@
     </p>
   </div>
 </section>
-
-<!-- /* background with lowered opacity, text with full */
-@media(max-width: 799px) {
-    .bg {
-        background-color: rgba(var(--rgb-dark-grey), 0.9);
-    }
-}
-
-@media(min-width: 800px) {
-    .bg {
-        position: relative;
-        z-index: 1;
-    }
-    
-    .bg::before {
-        content: "";
-        position: absolute;
-        top: 0; 
-        left: 0;
-        width: 100%; 
-        height: 100%;  
-        opacity: 0.85; 
-        z-index: -1;
-        background-color: unset;
-        background-image: url('images/portfolioBG_BW.png');
-        background-size: cover;
-        background-attachment: fixed;
-      }
-
-    .bg:nth-of-type(3),
-    .bg:nth-of-type(6),
-    .bg:nth-of-type(9),
-    .bg:nth-of-type(11) {
-        grid-column: span 2;
-    }
-} -->
